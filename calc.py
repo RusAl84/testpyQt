@@ -14,6 +14,7 @@ class MainWindow(QMainWindow):
         value1 = self.ui.lineEdit_1.text()
         value2 = self.ui.lineEdit_2.text()
         self.ui.lineEdit_3.setText(value1+value2)
+        self.ui.data = "VASYA KAPEC"
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     app.setStyle("plastique")
